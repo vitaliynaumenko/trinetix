@@ -1,0 +1,123 @@
+<header class="header">
+  <div class="content__wrapp">
+    <div class="container-fluid">
+      <div class="row py-15">
+        <div class="col-lg-6 col-md-4 col-sm-4">
+          <div class="logo header__logo">
+            <a href="" class="logo__link">
+              <img src="assets/images/logo__header.png" alt="" class="logo__image">
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-8">
+          <nav class="menu header__menu--top">
+            <ul class="menu__list d-flex">
+              <li class="menu__item">
+                <a href="" class="menu__link">Case Studies</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">Services</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">Expertise</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">About</a>
+              </li>
+              <li class="menu__item ">
+                <a href="" class="menu__link white-border">Contact us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__mobile-group" >
+          <div class="menu__burger btn-menu"
+               (click)="toggle = !toggle "
+               [ngClass]=" toggle ? 'open' : '' " >
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="header__content">
+    <div class="content__wrapp">
+      <div class="container-fluid">
+        <p>We work with forward businesses to create
+        new digital platform, products and services.</p>
+      </div>
+    </div>
+
+  </div>
+  <div class="content__wrapp">
+    <div class="container-fluid">
+      <nav class="menu header__menu--bottom">
+        <ul class="menu__list ">
+          <li class="menu__item">
+            <a href="" class="menu__link active">all</a>
+          </li>
+          <li class="menu__item">
+            <a href="" class="menu__link">Mobile apps</a>
+          </li>
+          <li class="menu__item">
+            <a href="" class="menu__link">web services</a>
+          </li>
+          <li class="menu__item">
+            <a href="" class="menu__link">augmented reality</a>
+          </li>
+          <li class="menu__item ">
+            <a href="" class="menu__link">UX/ui design</a>
+          </li>
+          <li class="menu__item ">
+            <a href="" class="menu__link">development</a>
+          </li>
+        </ul>
+        <ul class="menu__list menu__list-mobile ">
+          <li class="menu__item">
+            <a href="" class="menu__link active">all</a>
+          </li>
+          <li class="menu__item">
+            <a href="" class="menu__link">Mobile</a>
+          </li>
+          <li class="menu__item">
+            <a href="" class="menu__link">web</a>
+          </li>
+          <li class="menu__item">
+            <a href="" class="menu__link">ar</a>
+          </li>
+          <li class="menu__item ">
+            <a href="" class="menu__link">UX/ui</a>
+          </li>
+          <li class="menu__item ">
+            <a href="" class="menu__link">dev</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+  </div>
+  <nav class="menu mobile__menu " [ngClass]=" toggle ? 'open' : '' ">
+    <ul class="menu__list">
+      <li class="menu__item">
+        <a href="" class="menu__link">Case Studies</a>
+      </li>
+      <li class="menu__item">
+        <a href="" class="menu__link">Services</a>
+      </li>
+      <li class="menu__item">
+        <a href="" class="menu__link">Expertise</a>
+      </li>
+      <li class="menu__item">
+        <a href="" class="menu__link">About</a>
+      </li>
+      <li class="menu__item ">
+        <a href="" class="menu__link ">Contact us</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+

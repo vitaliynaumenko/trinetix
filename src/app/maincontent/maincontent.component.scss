@@ -1,0 +1,103 @@
+
+.info {
+  text-align: center;
+
+  .info__title {
+    font-size: 54px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    @media screen and (max-width: 768px) {
+      font-size: 34px;
+    }
+  }
+
+  .info__text {
+    padding: 0 15px;
+    font-family: "DecimaNovaProLt";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.4;
+    @media screen and (max-width: 768px) {
+      font-size: 20px;
+    }
+  }
+}
+
+.services {
+  position: relative;
+  padding: 190px 0 0 0;
+  text-align: center;
+  border-image: url('../../assets/images/line_arrow.png') 2 stretch;
+  border-bottom: 0;
+  border-right: 0;
+  border-left: 0;
+
+  .line__arrow {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 35px;
+    width: 100%;
+  }
+
+  .services-item {
+    margin-bottom: 60px;
+  }
+
+  .services__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 335px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .services__title {
+    font-family: "PT Serif";
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #00abff;
+    @media screen and (max-width: 768px) {
+      font-size: 28px;
+    }
+  }
+
+  .services__text {
+    font-family: "DecimaNovaProLt";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 15px;
+
+    @media screen and (max-width: 768px) {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+
+  .services__link {
+    display: block;
+    width: 170px;
+    height: 30px;
+    line-height: 30px;
+    font-family: "DecimaNovaProLt";
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    border: 1px solid #00abff;
+    border-radius: 15px;
+    margin: 0 auto;
+    transition: all .5s ease;
+
+  }
+
+  @media screen and (max-width: 768px){
+    padding: 50px 0 0 ;
+  }
+}
+

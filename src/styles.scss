@@ -1,1 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700&display=swap');
+@import "~animate.css/animate.css";
+
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Decima Nova Pro";
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #ffffff;
+}
+.main{
+  position: relative;
+  flex: 1 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+a{
+  text-decoration: none;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.content__wrapp {
+  max-width: 1230px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section__content {
+  padding: 50px 0 0 0;
+}
+
+.title {
+  font-family: "PT Serif";
+  color: #105788;
+}
+
+.d-m-none{
+  @media screen and (max-width: 768px){
+    display: none;
+  }
+}
+.order-m-1{
+  @media screen and (max-width: 768px){
+    order: 1;
+  }
+}
+
+.order-m-2{
+  @media screen and (max-width: 768px){
+    order: 2;
+  }
+}
