@@ -42,6 +42,18 @@ ul {
 .section__content {
   padding: 50px 0 0 0;
 }
+.page{
+  padding: 50px 0;
+}
+.page__title{
+  text-transform: uppercase;
+  text-align: center;
+}
+.page__img{
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
 
 .title {
   font-family: "PT Serif";

@@ -87,12 +87,17 @@
     line-height: 30px;
     font-family: "DecimaNovaProLt";
     font-size: 16px;
+    text-decoration: none;
     text-align: center;
     text-transform: capitalize;
     border: 1px solid #00abff;
     border-radius: 15px;
     margin: 0 auto;
     transition: all .5s ease;
+    &:hover{
+      color: #ffffff;
+      background: #00abff;
+    }
 
   }
 
